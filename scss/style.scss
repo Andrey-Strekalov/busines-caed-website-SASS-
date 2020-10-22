@@ -1,7 +1,52 @@
-.block{
-    font-size: 20px;
-    .block2{
-        color: red;
-        font-size: 45px;
+body {
+  display: inline-flex;
+}
+.block_1 {
+  background: #e5e5e5;
+  width: 1920px;
+  height: 700px;
+  .header-block {
+    margin-top: 57px;
+
+    display: flex;
+    justify-content: space-around;
+    .block-navigation {
+      width: 596px;
+      padding-top: 20px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.1em;
+      color: #000000;
+      display: flex;
+      justify-content: space-between;
     }
+  }
+  .logo {
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #34547a;
+  }
+  .content {
+    margin-top: 160px;
+
+    display: flex;
+    justify-content: space-evenly;
+    .disain {
+      width: 540px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+
+      color: #727272;
+    }
+  }
 }
