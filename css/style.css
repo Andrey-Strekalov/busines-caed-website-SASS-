@@ -20,13 +20,13 @@ button {
           flex-direction: column;
 }
 
-.content .block_1 {
+.content .main-block {
   background: #e5e5e5;
   width: 1920px;
   height: 800px;
 }
 
-.content .block_1 .header-block {
+.content .main-block .header-block {
   margin-top: 57px;
   height: 60px;
   display: -webkit-box;
@@ -39,7 +39,7 @@ button {
           align-items: center;
 }
 
-.content .block_1 .header-block h1 {
+.content .main-block .header-block h1 {
   font-family: Revalia;
   font-style: normal;
   font-weight: normal;
@@ -49,7 +49,7 @@ button {
   color: #34547a;
 }
 
-.content .block_1 .header-block .block-navigation {
+.content .main-block .header-block .block-navigation {
   width: 596px;
   padding-top: 20px;
   font-family: Roboto;
@@ -67,7 +67,7 @@ button {
           justify-content: space-between;
 }
 
-.content .block_1 .header-block .block-navigation span {
+.content .main-block .header-block .block-navigation span {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -76,7 +76,7 @@ button {
   letter-spacing: 0.1em;
 }
 
-.content .block_1 .block-content {
+.content .main-block .block-content {
   margin-top: 160px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,11 +86,11 @@ button {
           justify-content: center;
 }
 
-.content .block_1 .block-content img {
+.content .main-block .block-content img {
   margin-right: 140px;
 }
 
-.content .block_1 .block-content .disain {
+.content .main-block .block-content .disain {
   width: 540px;
   font-family: Roboto;
   font-style: normal;
@@ -101,7 +101,7 @@ button {
   margin-bottom: 0;
 }
 
-.content .block_1 .block-content button {
+.content .main-block .block-content button {
   font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
@@ -115,7 +115,7 @@ button {
   margin-top: 60px;
 }
 
-.content .block_1 .block-content .content-2 h2 {
+.content .main-block .block-content .content-2 h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -125,11 +125,11 @@ button {
   margin-top: 0;
 }
 
-.content .block_2 {
+.content .block-about-me {
   height: 356px;
 }
 
-.content .block_2 h2 {
+.content .block-about-me h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -140,7 +140,7 @@ button {
   padding-top: 119px;
 }
 
-.content .block_2 p {
+.content .block-about-me p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
