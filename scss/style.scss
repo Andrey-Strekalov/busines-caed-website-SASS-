@@ -9,7 +9,12 @@ button {
   background: #eeeff1;
   justify-content: center;
 
+  flex-direction: column;
+  .main-block {
+
+
   .block_1 {
+
     background: #e5e5e5;
     width: 1920px;
     height: 800px;
@@ -54,6 +59,8 @@ button {
     .block-content {
       margin-top: 160px;
 
+
+
       display: flex;
       justify-content: center;
       img {
@@ -67,11 +74,17 @@ button {
         font-size: 16px;
         line-height: 26px;
 
+
+
+
         color: #727272;
         margin-bottom: 0;
       }
       button {
         font-family: Roboto;
+
+
+
 
         font-weight: 400;
         font-size: 16px;
@@ -80,6 +93,10 @@ button {
         letter-spacing: 0.1em;
 
         color: #ffffff;
+
+
+        color: #ffffff;
+
 
         background: #34547a;
         width: 225px;
@@ -94,10 +111,42 @@ button {
           font-size: 48px;
           line-height: 79px;
 
+
+
+
           color: #000000;
           margin-top: 0;
         }
       }
     }
   }
+
+  .block-about-me {
+    height: 356px;
+    h2 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 37px;
+      text-align: center;
+
+      color: #000000;
+      padding-top: 119px;
+    }
+    p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      width: 540px;
+      color: #727272;
+      padding-top: 50px;
+      margin: 0 auto;
+    }
+  }
+
+
 }
