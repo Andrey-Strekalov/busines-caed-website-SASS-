@@ -8,13 +8,8 @@ button {
   display: flex;
   background: #eeeff1;
   justify-content: center;
-
   flex-direction: column;
   .main-block {
-
-
-  .block_1 {
-
     background: #e5e5e5;
     width: 1920px;
     height: 800px;
@@ -58,9 +53,6 @@ button {
 
     .block-content {
       margin-top: 160px;
-
-
-
       display: flex;
       justify-content: center;
       img {
@@ -74,30 +66,17 @@ button {
         font-size: 16px;
         line-height: 26px;
 
-
-
-
         color: #727272;
         margin-bottom: 0;
       }
       button {
         font-family: Roboto;
-
-
-
-
         font-weight: 400;
         font-size: 16px;
         line-height: 26px;
         text-align: center;
         letter-spacing: 0.1em;
-
         color: #ffffff;
-
-
-        color: #ffffff;
-
-
         background: #34547a;
         width: 225px;
         height: 65px;
@@ -110,10 +89,6 @@ button {
           font-weight: 500;
           font-size: 48px;
           line-height: 79px;
-
-
-
-
           color: #000000;
           margin-top: 0;
         }
@@ -130,7 +105,6 @@ button {
       font-size: 32px;
       line-height: 37px;
       text-align: center;
-
       color: #000000;
       padding-top: 119px;
     }
@@ -147,6 +121,26 @@ button {
       margin: 0 auto;
     }
   }
-
-
+  .project-line {
+    background: #34547a;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0 0 0;
+    .project_row {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      color: #ffffff;
+      p {
+        margin: 0 52px 0 20px;
+      }
+    }
+  }
 }
