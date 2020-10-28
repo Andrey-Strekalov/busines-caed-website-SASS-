@@ -153,23 +153,19 @@ button {
       display: flex;
       flex-direction: column;
       padding: 102px 150px 0 0;
-      p:nth-child(3) {
+      p:nth-child(3),
+      p:nth-child(5),
+      p:nth-child(7) {
         height: 4px;
         width: 455px;
         background: linear-gradient(90deg, #34547a 80%, #c4c4c4 80%);
         margin: 19px 0 30px 0;
       }
       p:nth-child(5) {
-        height: 4px;
-        width: 455px;
         background: linear-gradient(90deg, #34547a 58%, #c4c4c4 58%);
-        margin: 19px 0 30px 0;
       }
       p:nth-child(7) {
-        height: 4px;
-        width: 455px;
         background: linear-gradient(90deg, #34547a 32%, #c4c4c4 32%);
-        margin: 19px 0 30px 0;
       }
       h2 {
         font-family: Roboto;
