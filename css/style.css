@@ -118,7 +118,6 @@ button {
 .content .main-block .block-content .content-2 h2 {
   font-family: Roboto;
   font-style: normal;
-  font-weight: 500;
   font-size: 48px;
   line-height: 79px;
   color: #000000;
@@ -132,7 +131,6 @@ button {
 .content .block-about-me h2 {
   font-family: Roboto;
   font-style: normal;
-  font-weight: 500;
   font-size: 32px;
   line-height: 37px;
   text-align: center;
@@ -189,4 +187,78 @@ button {
 
 .content .project-line .project_row p {
   margin: 0 52px 0 20px;
+}
+
+.content .skills-block {
+  padding-top: 102px;
+  height: 653px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .skills-block .skills-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 102px 150px 0 0;
+}
+
+.content .skills-block .skills-list p:nth-child(3) {
+  height: 4px;
+  width: 455px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(80%, #34547a), color-stop(80%, #c4c4c4));
+  background: linear-gradient(90deg, #34547a 80%, #c4c4c4 80%);
+  margin: 19px 0 30px 0;
+}
+
+.content .skills-block .skills-list p:nth-child(5) {
+  height: 4px;
+  width: 455px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(58%, #34547a), color-stop(58%, #c4c4c4));
+  background: linear-gradient(90deg, #34547a 58%, #c4c4c4 58%);
+  margin: 19px 0 30px 0;
+}
+
+.content .skills-block .skills-list p:nth-child(7) {
+  height: 4px;
+  width: 455px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(32%, #34547a), color-stop(32%, #c4c4c4));
+  background: linear-gradient(90deg, #34547a 32%, #c4c4c4 32%);
+  margin: 19px 0 30px 0;
+}
+
+.content .skills-block .skills-list h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 37px;
+  padding-bottom: 50px;
+  color: #000000;
+}
+
+.content .skills-block .skills-list p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+
+.content .skills-block img {
+  width: 555px;
+  height: 450px;
 }

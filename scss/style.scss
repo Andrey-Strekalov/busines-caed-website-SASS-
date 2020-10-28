@@ -65,7 +65,6 @@ button {
         font-weight: normal;
         font-size: 16px;
         line-height: 26px;
-
         color: #727272;
         margin-bottom: 0;
       }
@@ -86,7 +85,7 @@ button {
         h2 {
           font-family: Roboto;
           font-style: normal;
-          font-weight: 500;
+
           font-size: 48px;
           line-height: 79px;
           color: #000000;
@@ -101,7 +100,7 @@ button {
     h2 {
       font-family: Roboto;
       font-style: normal;
-      font-weight: 500;
+
       font-size: 32px;
       line-height: 37px;
       text-align: center;
@@ -141,6 +140,57 @@ button {
       p {
         margin: 0 52px 0 20px;
       }
+    }
+  }
+  .skills-block {
+    padding-top: 102px;
+    height: 653px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .skills-list {
+      display: flex;
+      flex-direction: column;
+      padding: 102px 150px 0 0;
+      p:nth-child(3) {
+        height: 4px;
+        width: 455px;
+        background: linear-gradient(90deg, #34547a 80%, #c4c4c4 80%);
+        margin: 19px 0 30px 0;
+      }
+      p:nth-child(5) {
+        height: 4px;
+        width: 455px;
+        background: linear-gradient(90deg, #34547a 58%, #c4c4c4 58%);
+        margin: 19px 0 30px 0;
+      }
+      p:nth-child(7) {
+        height: 4px;
+        width: 455px;
+        background: linear-gradient(90deg, #34547a 32%, #c4c4c4 32%);
+        margin: 19px 0 30px 0;
+      }
+      h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 32px;
+        line-height: 37px;
+        padding-bottom: 50px;
+        color: #000000;
+      }
+      p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #727272;
+      }
+    }
+    img {
+      width: 555px;
+      height: 450px;
     }
   }
 }
