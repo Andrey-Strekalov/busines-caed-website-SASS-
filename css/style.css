@@ -216,7 +216,9 @@ button {
   padding: 102px 150px 0 0;
 }
 
-.content .skills-block .skills-list p:nth-child(3) {
+.content .skills-block .skills-list p:nth-child(3),
+.content .skills-block .skills-list p:nth-child(5),
+.content .skills-block .skills-list p:nth-child(7) {
   height: 4px;
   width: 455px;
   background: -webkit-gradient(linear, left top, right top, color-stop(80%, #34547a), color-stop(80%, #c4c4c4));
@@ -225,19 +227,13 @@ button {
 }
 
 .content .skills-block .skills-list p:nth-child(5) {
-  height: 4px;
-  width: 455px;
   background: -webkit-gradient(linear, left top, right top, color-stop(58%, #34547a), color-stop(58%, #c4c4c4));
   background: linear-gradient(90deg, #34547a 58%, #c4c4c4 58%);
-  margin: 19px 0 30px 0;
 }
 
 .content .skills-block .skills-list p:nth-child(7) {
-  height: 4px;
-  width: 455px;
   background: -webkit-gradient(linear, left top, right top, color-stop(32%, #34547a), color-stop(32%, #c4c4c4));
   background: linear-gradient(90deg, #34547a 32%, #c4c4c4 32%);
-  margin: 19px 0 30px 0;
 }
 
 .content .skills-block .skills-list h2 {
