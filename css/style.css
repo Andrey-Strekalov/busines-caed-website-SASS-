@@ -301,3 +301,27 @@ button {
   margin-top: 57px;
   height: 600px;
 }
+
+.content .clients-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 292px;
+  background: white;
+  margin-top: 60px;
+}
+
+.content .clients-block img {
+  height: 120px;
+  margin: 0 30px 0 0;
+}
