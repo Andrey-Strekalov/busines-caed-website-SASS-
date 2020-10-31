@@ -216,7 +216,9 @@ button {
   padding: 102px 150px 0 0;
 }
 
-.content .skills-block .skills-list p:nth-child(3) {
+.content .skills-block .skills-list p:nth-child(3),
+.content .skills-block .skills-list p:nth-child(5),
+.content .skills-block .skills-list p:nth-child(7) {
   height: 4px;
   width: 455px;
   background: -webkit-gradient(linear, left top, right top, color-stop(80%, #34547a), color-stop(80%, #c4c4c4));
@@ -225,19 +227,13 @@ button {
 }
 
 .content .skills-block .skills-list p:nth-child(5) {
-  height: 4px;
-  width: 455px;
   background: -webkit-gradient(linear, left top, right top, color-stop(58%, #34547a), color-stop(58%, #c4c4c4));
   background: linear-gradient(90deg, #34547a 58%, #c4c4c4 58%);
-  margin: 19px 0 30px 0;
 }
 
 .content .skills-block .skills-list p:nth-child(7) {
-  height: 4px;
-  width: 455px;
   background: -webkit-gradient(linear, left top, right top, color-stop(32%, #34547a), color-stop(32%, #c4c4c4));
   background: linear-gradient(90deg, #34547a 32%, #c4c4c4 32%);
-  margin: 19px 0 30px 0;
 }
 
 .content .skills-block .skills-list h2 {
@@ -261,4 +257,47 @@ button {
 .content .skills-block img {
   width: 555px;
   height: 450px;
+}
+
+.content .my-work {
+  height: 1004px;
+  background: #eeeff1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .my-work .title h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+  margin-top: 100px;
+}
+
+.content .my-work .title p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.content .my-work img {
+  margin-top: 57px;
+  height: 600px;
 }
