@@ -298,6 +298,17 @@ button {
 }
 
 .content .my-work img {
-  margin-top: 57px;
+  margin: 57px 0 100px 0;
   height: 600px;
+}
+
+.content .projects-block {
+  height: 960px;
+  background: white;
+  padding-top: 28px;
+}
+
+.content .projects-block img {
+  width: 472px;
+  height: 472px;
 }
