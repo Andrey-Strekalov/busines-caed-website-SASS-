@@ -224,7 +224,7 @@ button {
     }
   }
 
-  .clients-block{
+  .clients-block {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -235,7 +235,8 @@ button {
     img{
      height: 120px;
      margin: 0 30px 0 0;
-
+   }
+  }
   .projects-block {
     height: 960px;
     background: white;
@@ -246,4 +247,5 @@ button {
 
     }
   }
+
 }

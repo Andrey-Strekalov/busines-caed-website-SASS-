@@ -302,7 +302,6 @@ button {
   height: 600px;
 }
 
-
 .content .clients-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -325,6 +324,7 @@ button {
 .content .clients-block img {
   height: 120px;
   margin: 0 30px 0 0;
+}
 
 .content .projects-block {
   height: 960px;
@@ -335,5 +335,4 @@ button {
 .content .projects-block img {
   width: 472px;
   height: 472px;
-
 }
