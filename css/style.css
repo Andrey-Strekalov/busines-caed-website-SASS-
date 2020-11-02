@@ -6,7 +6,7 @@ button {
   margin: 0;
 }
 
-.content {
+.main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,26 +20,35 @@ button {
           flex-direction: column;
 }
 
-.content .main-block {
+.main .main-block {
   background: #e5e5e5;
-  width: 1920px;
   height: 800px;
 }
 
-.content .main-block .header-block {
+.main .main-block .content {
+  width: 1100px;
+  height: 700px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.main .main-block .content .header-block {
   margin-top: 57px;
   height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.content .main-block .header-block h1 {
+.main .main-block .content .header-block h1 {
   font-family: Revalia;
   font-style: normal;
   font-weight: normal;
@@ -49,7 +58,7 @@ button {
   color: #34547a;
 }
 
-.content .main-block .header-block .block-navigation {
+.main .main-block .content .header-block .block-navigation {
   width: 596px;
   padding-top: 20px;
   font-family: Roboto;
@@ -67,7 +76,7 @@ button {
           justify-content: space-between;
 }
 
-.content .main-block .header-block .block-navigation span {
+.main .main-block .content .header-block .block-navigation span {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -76,21 +85,17 @@ button {
   letter-spacing: 0.1em;
 }
 
-.content .main-block .block-content {
+.main .main-block .content .block-content {
   margin-top: 160px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.content .main-block .block-content img {
-  margin-right: 140px;
-}
-
-.content .main-block .block-content .disain {
+.main .main-block .content .block-content p {
   width: 540px;
   font-family: Roboto;
   font-style: normal;
@@ -101,7 +106,7 @@ button {
   margin-bottom: 0;
 }
 
-.content .main-block .block-content button {
+.main .main-block .content .block-content button {
   font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
@@ -115,7 +120,7 @@ button {
   margin-top: 60px;
 }
 
-.content .main-block .block-content .content-2 h2 {
+.main .main-block .content .block-content .content-2 h2 {
   font-family: Roboto;
   font-style: normal;
   font-size: 48px;
@@ -124,11 +129,21 @@ button {
   margin-top: 0;
 }
 
-.content .block-about-me {
+.main .block-about-me {
   height: 356px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.content .block-about-me h2 {
+.main .block-about-me h2 {
   font-family: Roboto;
   font-style: normal;
   font-size: 32px;
@@ -138,7 +153,7 @@ button {
   padding-top: 119px;
 }
 
-.content .block-about-me p {
+.main .block-about-me p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -151,7 +166,7 @@ button {
   margin: 0 auto;
 }
 
-.content .project-line {
+.main .project-line {
   background: #34547a;
   height: 250px;
   display: -webkit-box;
@@ -166,7 +181,7 @@ button {
   margin: 100px 0 0 0;
 }
 
-.content .project-line .project_row {
+.main .project-line .project_row {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -185,14 +200,25 @@ button {
   color: #ffffff;
 }
 
-.content .project-line .project_row p {
+.main .project-line .project_row p {
   margin: 0 52px 0 20px;
 }
 
-.content .skills-block {
+.main .skills-block {
   padding-top: 102px;
   height: 653px;
   background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .skills-block .content {
+  width: 1100px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -200,12 +226,9 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-.content .skills-block .skills-list {
+.main .skills-block .content .skills-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,9 +239,9 @@ button {
   padding: 102px 150px 0 0;
 }
 
-.content .skills-block .skills-list p:nth-child(3),
-.content .skills-block .skills-list p:nth-child(5),
-.content .skills-block .skills-list p:nth-child(7) {
+.main .skills-block .content .skills-list p:nth-child(3),
+.main .skills-block .content .skills-list p:nth-child(5),
+.main .skills-block .content .skills-list p:nth-child(7) {
   height: 4px;
   width: 455px;
   background: -webkit-gradient(linear, left top, right top, color-stop(80%, #34547a), color-stop(80%, #c4c4c4));
@@ -226,17 +249,17 @@ button {
   margin: 19px 0 30px 0;
 }
 
-.content .skills-block .skills-list p:nth-child(5) {
+.main .skills-block .content .skills-list p:nth-child(5) {
   background: -webkit-gradient(linear, left top, right top, color-stop(58%, #34547a), color-stop(58%, #c4c4c4));
   background: linear-gradient(90deg, #34547a 58%, #c4c4c4 58%);
 }
 
-.content .skills-block .skills-list p:nth-child(7) {
+.main .skills-block .content .skills-list p:nth-child(7) {
   background: -webkit-gradient(linear, left top, right top, color-stop(32%, #34547a), color-stop(32%, #c4c4c4));
   background: linear-gradient(90deg, #34547a 32%, #c4c4c4 32%);
 }
 
-.content .skills-block .skills-list h2 {
+.main .skills-block .content .skills-list h2 {
   font-family: Roboto;
   font-style: normal;
   font-size: 32px;
@@ -245,7 +268,7 @@ button {
   color: #000000;
 }
 
-.content .skills-block .skills-list p {
+.main .skills-block .content .skills-list p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -254,14 +277,24 @@ button {
   color: #727272;
 }
 
-.content .skills-block img {
+.main .skills-block .content img {
   width: 555px;
   height: 450px;
 }
 
-.content .my-work {
+.main .my-work {
   height: 1004px;
   background: #eeeff1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .my-work .content {
+  width: 1100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,12 +302,9 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-.content .my-work .title h2 {
+.main .my-work .content .title h2 {
   font-family: Roboto;
   font-style: normal;
   font-size: 32px;
@@ -284,7 +314,7 @@ button {
   margin-top: 100px;
 }
 
-.content .my-work .title p {
+.main .my-work .content .title p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -297,12 +327,12 @@ button {
   margin-top: 50px;
 }
 
-.content .my-work img {
+.main .my-work .content img {
   margin: 57px 0 100px 0;
   height: 600px;
 }
 
-.content .clients-block {
+.main .clients-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -321,18 +351,17 @@ button {
   margin-top: 60px;
 }
 
-.content .clients-block img {
+.main .clients-block img {
   height: 120px;
   margin: 0 30px 0 0;
 }
 
-.content .projects-block {
-  height: 960px;
+.main .projects-block {
   background: white;
   padding-top: 28px;
 }
 
-.content .projects-block img {
+.main .projects-block img {
   width: 472px;
   height: 472px;
 }
