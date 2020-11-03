@@ -130,7 +130,7 @@ button {
 }
 
 .main .block-about-me {
-  height: 356px;
+  height: 456px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,6 +141,9 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main .block-about-me h2 {
@@ -150,7 +153,6 @@ button {
   line-height: 37px;
   text-align: center;
   color: #000000;
-  padding-top: 119px;
 }
 
 .main .block-about-me p {
@@ -178,7 +180,6 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 100px 0 0 0;
 }
 
 .main .project-line .project_row {
@@ -205,8 +206,7 @@ button {
 }
 
 .main .skills-block {
-  padding-top: 102px;
-  height: 653px;
+  height: 755px;
   background: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,6 +214,9 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main .skills-block .content {
@@ -283,7 +286,7 @@ button {
 }
 
 .main .my-work {
-  height: 1004px;
+  height: 1134px;
   background: #eeeff1;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -291,6 +294,9 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main .my-work .content {
@@ -302,6 +308,10 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
 }
 
 .main .my-work .content .title h2 {
@@ -311,7 +321,6 @@ button {
   line-height: 37px;
   text-align: center;
   color: #000000;
-  margin-top: 100px;
 }
 
 .main .my-work .content .title p {
@@ -322,14 +331,24 @@ button {
   line-height: 26px;
   text-align: center;
   color: #727272;
-  max-width: 700px;
   margin: 0 auto;
+  width: 700px;
   margin-top: 50px;
 }
 
 .main .my-work .content img {
   margin: 57px 0 100px 0;
   height: 600px;
+}
+
+.main .projects-block {
+  background: white;
+  padding-top: 28px;
+}
+
+.main .projects-block img {
+  width: 472px;
+  height: 472px;
 }
 
 .main .clients-block {
@@ -351,17 +370,21 @@ button {
   margin-top: 60px;
 }
 
-.main .clients-block img {
+.main .clients-block .clients-logo {
+  width: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .clients-block .clients-logo img {
   height: 120px;
   margin: 0 30px 0 0;
-}
-
-.main .projects-block {
-  background: white;
-  padding-top: 28px;
-}
-
-.main .projects-block img {
-  width: 472px;
-  height: 472px;
 }
