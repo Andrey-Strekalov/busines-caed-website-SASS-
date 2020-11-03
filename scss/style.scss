@@ -5,7 +5,8 @@ button {
   margin: 0;
 }
 .main {
-  display: flex;
+  // display: inline-block;
+  display: inline-flex;
   background: #eeeff1;
   justify-content: center;
   flex-direction: column;

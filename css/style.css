@@ -7,9 +7,9 @@ button {
 }
 
 .main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   background: #eeeff1;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
