@@ -199,10 +199,24 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: #ffffff;
+  width: 1100px;
 }
 
-.main .project-line .project_row p {
-  margin: 0 52px 0 20px;
+.main .project-line .project_row .project-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .project-line .project_row .project-item span {
+  margin-left: 20px;
 }
 
 .main .skills-block {
@@ -229,6 +243,9 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .main .skills-block .content .skills-list {
@@ -281,8 +298,7 @@ button {
 }
 
 .main .skills-block .content img {
-  width: 555px;
-  height: 450px;
+  width: 505px;
 }
 
 .main .my-work {
