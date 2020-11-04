@@ -1,4 +1,12 @@
-button {
+button,
+textarea,
+input {
+  border: none;
+}
+
+button:focus,
+textarea:focus,
+input:focus {
   border: none;
 }
 
@@ -403,4 +411,90 @@ button {
 .main .clients-block .clients-logo img {
   height: 120px;
   margin: 0 30px 0 0;
+}
+
+.main .block-form {
+  height: 762px;
+  background: #eeeff1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .block-form .content {
+  width: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .block-form .content h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  text-align: center;
+}
+
+.main .block-form .content p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  width: 580px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.main .block-form .content .form {
+  margin-top: 65px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .block-form .content .form input {
+  width: 250px;
+  height: 30px;
+  margin: 0 30px 20px 0;
+  padding: 10px;
+}
+
+.main .block-form .content .form input[name="email"] {
+  margin: 0;
+}
+
+.main .block-form .content .form textarea {
+  padding: 10px;
+  width: 553px;
+  height: 150px;
+  resize: none;
 }
