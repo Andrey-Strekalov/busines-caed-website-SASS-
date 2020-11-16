@@ -12,7 +12,6 @@ input:focus {
   margin: 0;
 }
 .main {
-  // display: inline-block;
   display: inline-flex;
   background: #eeeff1;
   justify-content: center;
@@ -40,6 +39,14 @@ input:focus {
           text-align: center;
           color: #34547a;
         }
+        h1:hover {
+          padding: 10px;
+          background: linear-gradient(45deg, blue, red);
+          color: white;
+          transform: rotate(360deg);
+          transition: 1s;
+          border-radius: 50%;
+        }
         .block-navigation {
           width: 596px;
           padding-top: 20px;
@@ -52,13 +59,19 @@ input:focus {
           color: #000000;
           display: flex;
           justify-content: space-between;
-          span {
+          a {
             font-family: Roboto;
             font-style: normal;
             font-weight: normal;
             font-size: 16px;
             line-height: 26px;
             letter-spacing: 0.1em;
+          }
+          a:hover {
+            transition: 800ms;
+            transform: scale(1.1);
+            // box-shadow: 2px 2px 10px 0px black;
+            border-bottom: 1px solid rgb(60, 108, 163);
           }
         }
       }
@@ -85,10 +98,15 @@ input:focus {
           text-align: center;
           letter-spacing: 0.1em;
           color: #ffffff;
-          background: #34547a;
+          background: #204b80;
           width: 225px;
           height: 65px;
           margin-top: 60px;
+        }
+        button:hover {
+          transition: 500ms;
+          background: #17549e;
+          font-size: 18px;
         }
         .content-2 {
           h2 {
@@ -138,7 +156,7 @@ input:focus {
     align-items: center;
     justify-content: center;
 
-    .project_row {
+    .project-row {
       font-family: Roboto;
       font-style: normal;
       font-weight: normal;
@@ -156,6 +174,10 @@ input:focus {
         span {
           margin-left: 20px;
         }
+      }
+      .project-item:hover {
+        transform: translateY(-10px);
+        transition: 350ms;
       }
     }
   }
@@ -183,7 +205,7 @@ input:focus {
           background: linear-gradient(90deg, #34547a 80%, #c4c4c4 80%);
           margin: 19px 0 30px 0;
         }
-        p:nth-child(5) {
+        p:nth-child(3) {
           background: linear-gradient(90deg, #34547a 58%, #c4c4c4 58%);
         }
         p:nth-child(7) {
@@ -204,11 +226,22 @@ input:focus {
           font-size: 16px;
           line-height: 26px;
           color: #727272;
+          span {
+            display: none;
+          }
         }
       }
       img {
         width: 505px;
-        // height: 400px;
+      }
+      img:hover {
+        filter: saturate(115%);
+      }
+      p:hover {
+        span {
+          display: inline;
+          color: rgb(14, 151, 14);
+        }
       }
     }
   }
@@ -260,6 +293,11 @@ input:focus {
       width: 472px;
       height: 472px;
     }
+    img:hover {
+      transition: 1s;
+      transform: scale(1.15);
+      z-index: 10;
+    }
   }
   .clients-block {
     display: flex;
@@ -277,6 +315,10 @@ input:focus {
       img {
         height: 120px;
         margin: 0 30px 0 0;
+      }
+      img:hover {
+        transition: 1.5s;
+        transform: rotateX(360deg);
       }
     }
   }
