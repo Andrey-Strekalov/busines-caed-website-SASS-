@@ -538,9 +538,7 @@ input:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
 }
 
 .main .block-form .content .form input {
@@ -560,6 +558,20 @@ input:focus {
   height: 150px;
   resize: none;
 }
+
+
+.main .block-form .content .form button {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  width: 190px;
+  height: 55px;
+  background: #34547a;
+  margin: 50px 0 0 0;
+  color: white;
 
 .main .footer {
   height: 151px;
@@ -630,4 +642,5 @@ input:focus {
 .main .footer .content .social-sites img {
   width: 43px;
   height: 67px;
+
 }
