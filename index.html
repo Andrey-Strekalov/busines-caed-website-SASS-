@@ -17,11 +17,11 @@
                 <div class="header-block">
                     <h1>AS</h1>
                     <div class="block-navigation">
-                        <span>НА ГЛАВНУЮ</span>
-                        <span>ОБ АВТОРЕ</span>
-                        <span>РАБОТЫ</span>
-                        <span>ПРОЦЕСС</span>
-                        <span>КОНТАКТЫ</span>
+                        <a>НА ГЛАВНУЮ</a>
+                        <a>ОБ АВТОРЕ</a>
+                        <a>РАБОТЫ</a>
+                        <a>ПРОЦЕСС</a>
+                        <a>КОНТАКТЫ</a>
                     </div>
                 </div>
                 <div class="block-content">
@@ -33,7 +33,7 @@
                             voluptatibus incidunt maiores libero tempore molestias quae, quod ex vero aut, sunt
                             exercitationem aspernatur omnis odit consequuntur natus vitae?
                         </p>
-                        <button>НАПИСАТЬ МНЕ</button>
+                        <a href="#block-form"><button>НАПИСАТЬ МНЕ</button></a>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                 mollitia sunt natus consequuntur?</p>
         </div>
         <div class="project-line">
-            <div class="project_row">
+            <div class="project-row">
                 <div class="project-item">
                     <img src="./image/project.svg" alt="">
                     <span> 15+ <br> проектов </span>
@@ -72,11 +72,11 @@
             <div class="content">
                 <div class="skills-list">
                     <h2>Мои навыки</h2>
-                    <p>HTML</p>
+                    <p>HTML<span> 80%</span></p>
                     <p></p>
-                    <p>CSS</p>
+                    <p>CSS <span> 58%</span></p>
                     <p></p>
-                    <p>Java script</p>
+                    <p>Java script<span> 32%</span></p>
                     <p></p>
                 </div>
                 <img src="./image/me.jpg" alt="my_foto">
@@ -106,8 +106,6 @@
             <img src="./image/notes.svg" alt="">
             <img src="./image/notebook.svg" alt="">
             <img src="./image/notes.svg" alt="">
-
-
         </div>
         <div class="clients-block">
             <div class="clients-logo">
@@ -127,13 +125,27 @@
                         exercitationem
                         dicta officiis repellat.</p>
                 </div>
-                <div class="form">
+                <div class="form" id="block-form">
                     <input type="text" name="customer_name" placeholder="Имя">
                     <input type="text" name="email" placeholder="Ваш e-mail">
                     <br>
                     <textarea name="message" id="" cols="72" rows="15" placeholder="Сообщение"></textarea>
                     <br>
                     <button>ОТПРАВИТЬ</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="content">
+                <div class="copyright">
+                    <h3>Andrey Strekalov</h3>
+                    <p>in development since 2018</p>
+                    <p>&#169; 2020. Все права защищены.</p>
+                </div>
+                <div class="social-sites">
+                    <img src="./image/vk-logo.svg" alt="">
+                    <img src="./image/vk-logo.svg" alt="">
+                    <img src="./image/vk-logo.svg" alt="">
                 </div>
             </div>
         </div>
