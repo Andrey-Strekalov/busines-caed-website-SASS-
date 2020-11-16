@@ -317,7 +317,7 @@ input:focus {
       .form {
         margin-top: 65px;
         justify-content: center;
-        align-items: center;
+        text-align: center;
         input {
           width: 250px;
           height: 30px;
@@ -332,6 +332,19 @@ input:focus {
           width: 553px;
           height: 150px;
           resize: none;
+        }
+        button {
+          font-family: Roboto;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          text-align: center;
+          letter-spacing: 0.1em;
+          width: 190px;
+          height: 55px;
+          background: #34547a;
+          margin: 50px 0 0 0 ;
+          color: white;
         }
       }
     }
