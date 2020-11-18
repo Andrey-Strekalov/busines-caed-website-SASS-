@@ -59,6 +59,7 @@ input:focus {
           color: #000000;
           display: flex;
           justify-content: space-between;
+          display: none;
           a {
             font-family: Roboto;
             font-style: normal;
@@ -70,8 +71,68 @@ input:focus {
           a:hover {
             transition: 800ms;
             transform: scale(1.1);
-            // box-shadow: 2px 2px 10px 0px black;
             border-bottom: 1px solid rgb(60, 108, 163);
+          }
+        }
+        .menu-icon {
+          width: 40px;
+          height: 40px;
+          text-align: center;
+          .menu-burger {
+            width: 40px;
+            height: 8px;
+            background: #34547a;
+            // transform: rotate(90deg);
+            position: absolute;
+            .menu__list {
+              display: none;
+              width: 180px;
+              background: rgb(58, 57, 57);
+              position: relative;
+              top: 0;
+              right: 140px;
+              z-index: 10;
+              padding: 0px;
+              .list__item {
+                list-style: none;
+                color: #ffffff;  
+                text-align: left;
+                font-family: Roboto;
+                padding: 10px;
+                border-bottom: 2px solid rgb(110, 105, 105);
+              }
+              .list__item:hover{
+                background: rgb(110, 105, 105);
+              }
+            }
+            .menu__list:last-child{
+              border-bottom: none;
+            }
+          }
+          .menu-burger::before {
+            content: "";
+            position: absolute;
+            width: 40px;
+            height: 8px;
+            background: #34547a;
+            top: 32px;
+            left: 0;
+          }
+          .menu-burger::after {
+            content: "";
+            position: absolute;
+            width: 40px;
+            height: 8px;
+            background: #34547a;
+            top: 16px;
+            left: 0;
+          }
+        }
+      }
+      .menu-icon:hover {
+        .menu-burger {
+          .menu__list {
+            display: block;
           }
         }
       }
@@ -385,7 +446,7 @@ input:focus {
           width: 190px;
           height: 55px;
           background: #34547a;
-          margin: 50px 0 0 0 ;
+          margin: 50px 0 0 0;
           color: white;
         }
       }

@@ -93,6 +93,7 @@ input:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  display: none;
 }
 
 .main .main-block .content .header-block .block-navigation a {
@@ -110,6 +111,71 @@ input:focus {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   border-bottom: 1px solid #3c6ca3;
+}
+
+.main .main-block .content .header-block .menu-icon {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.main .main-block .content .header-block .menu-icon .menu-burger {
+  width: 40px;
+  height: 8px;
+  background: #34547a;
+  position: absolute;
+}
+
+.main .main-block .content .header-block .menu-icon .menu-burger .menu__list {
+  display: none;
+  width: 180px;
+  background: #3a3939;
+  position: relative;
+  top: 0;
+  right: 140px;
+  z-index: 10;
+  padding: 0px;
+}
+
+.main .main-block .content .header-block .menu-icon .menu-burger .menu__list .list__item {
+  list-style: none;
+  color: #ffffff;
+  text-align: left;
+  font-family: Roboto;
+  padding: 10px;
+  border-bottom: 2px solid #6e6969;
+}
+
+.main .main-block .content .header-block .menu-icon .menu-burger .menu__list .list__item:hover {
+  background: #6e6969;
+}
+
+.main .main-block .content .header-block .menu-icon .menu-burger .menu__list:last-child {
+  border-bottom: none;
+}
+
+.main .main-block .content .header-block .menu-icon .menu-burger::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 8px;
+  background: #34547a;
+  top: 32px;
+  left: 0;
+}
+
+.main .main-block .content .header-block .menu-icon .menu-burger::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 8px;
+  background: #34547a;
+  top: 16px;
+  left: 0;
+}
+
+.main .main-block .content .menu-icon:hover .menu-burger .menu__list {
+  display: block;
 }
 
 .main .main-block .content .block-content {
@@ -559,7 +625,6 @@ input:focus {
   resize: none;
 }
 
-
 .main .block-form .content .form button {
   font-family: Roboto;
   font-weight: 400;
@@ -572,6 +637,7 @@ input:focus {
   background: #34547a;
   margin: 50px 0 0 0;
   color: white;
+}
 
 .main .footer {
   height: 151px;
@@ -642,5 +708,4 @@ input:focus {
 .main .footer .content .social-sites img {
   width: 43px;
   height: 67px;
-
 }
