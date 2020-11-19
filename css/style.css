@@ -68,10 +68,8 @@ input:focus {
 
 .main .main-block .content .header-block h1:hover {
   padding: 10px;
-  background: linear-gradient(45deg, blue, red);
-  color: white;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  background: linear-gradient(60deg, #e5e5e5 30%, white 45%, #e5e5e5 70%);
+  color: #999999;
   -webkit-transition: 1s;
   transition: 1s;
   border-radius: 50%;
@@ -93,7 +91,6 @@ input:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  display: none;
 }
 
 .main .main-block .content .header-block .block-navigation a {
@@ -117,6 +114,7 @@ input:focus {
   width: 40px;
   height: 40px;
   text-align: center;
+  display: none;
 }
 
 .main .main-block .content .header-block .menu-icon .menu-burger {
@@ -197,6 +195,7 @@ input:focus {
   line-height: 26px;
   color: #727272;
   margin-bottom: 0;
+  padding-top: 15px;
 }
 
 .main .main-block .content .block-content button {
