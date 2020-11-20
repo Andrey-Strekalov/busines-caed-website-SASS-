@@ -10,8 +10,18 @@ input:focus {
   border: none;
 }
 
+button:active {
+  border: none;
+  outline: none;
+}
+
 * {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #727272;
 }
 
 .main {
@@ -103,8 +113,8 @@ input:focus {
 }
 
 .main .main-block .content .header-block .block-navigation a:hover {
-  -webkit-transition: 800ms;
-  transition: 800ms;
+  -webkit-transition: 300ms;
+  transition: 300ms;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   border-bottom: 1px solid #3c6ca3;
@@ -184,9 +194,21 @@ input:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
-.main .main-block .content .block-content p {
+.main .main-block .content .block-content .content-2 h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 79px;
+  color: #000000;
+  margin-top: 0;
+}
+
+.main .main-block .content .block-content .content-2 p {
   width: 540px;
   font-family: Roboto;
   font-style: normal;
@@ -198,7 +220,7 @@ input:focus {
   padding-top: 15px;
 }
 
-.main .main-block .content .block-content button {
+.main .main-block .content .block-content .content-2 button {
   font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
@@ -212,20 +234,15 @@ input:focus {
   margin-top: 60px;
 }
 
-.main .main-block .content .block-content button:hover {
+.main .main-block .content .block-content .content-2 button:hover {
   -webkit-transition: 500ms;
   transition: 500ms;
   background: #17549e;
   font-size: 18px;
 }
 
-.main .main-block .content .block-content .content-2 h2 {
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 48px;
-  line-height: 79px;
-  color: #000000;
-  margin-top: 0;
+.main .main-block .content .block-content .content-2 button:focus {
+  outline: none;
 }
 
 .main .block-about-me {
