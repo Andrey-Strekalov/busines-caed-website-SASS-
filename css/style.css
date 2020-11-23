@@ -8,6 +8,7 @@ button:focus,
 textarea:focus,
 input:focus {
   border: none;
+  outline: none;
 }
 
 button:active {
@@ -629,6 +630,8 @@ a {
   height: 30px;
   margin: 0 30px 20px 0;
   padding: 10px;
+  font-family: "Inconsolata", monospace;
+  color: #567b91;
 }
 
 .main .block-form .content .form input[name="email"] {
@@ -640,6 +643,14 @@ a {
   width: 553px;
   height: 150px;
   resize: none;
+  color: #567b91;
+}
+
+.main .block-form .content .form textarea:focus,
+.main .block-form .content .form input:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 6px 3px rgba(126, 201, 224, 0.747);
+          box-shadow: 0px 0px 6px 3px rgba(126, 201, 224, 0.747);
 }
 
 .main .block-form .content .form button {
@@ -654,6 +665,14 @@ a {
   background: #34547a;
   margin: 50px 0 0 0;
   color: white;
+}
+
+.main .block-form .content .form button:hover {
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  background: #17549e;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .main .footer {
