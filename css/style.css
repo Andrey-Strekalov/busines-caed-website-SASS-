@@ -738,10 +738,19 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  vertical-align: middle;
   width: 200px;
 }
 
 .main .footer .content .social-sites img {
-  width: 43px;
-  height: 67px;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+.main .footer .content .social-sites img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
