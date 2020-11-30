@@ -632,6 +632,7 @@ a {
   padding: 10px;
   font-family: "Inconsolata", monospace;
   color: #567b91;
+  font-size: 18px;
 }
 
 .main .block-form .content .form input[name="email"] {
@@ -644,6 +645,8 @@ a {
   height: 150px;
   resize: none;
   color: #567b91;
+  font-size: 16px;
+  letter-spacing: 1pt;
 }
 
 .main .block-form .content .form textarea:focus,
@@ -738,19 +741,27 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 200px;
+  height: 55px;
 }
 
 .main .footer .content .social-sites img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   margin: auto;
 }
 
 .main .footer .content .social-sites img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  -webkit-transition: 500ms;
-  transition: 500ms;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.main .footer .content .social-sites .vk-logo {
+  width: 50px;
+  height: 50px;
 }
